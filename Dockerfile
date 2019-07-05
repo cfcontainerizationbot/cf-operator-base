@@ -1,7 +1,6 @@
 FROM opensuse/leap:15.1
 RUN zypper --non-interactive install \
       patch \
-      sudo \
       ruby \
       system-user-nobody \
       inotify-tools \
