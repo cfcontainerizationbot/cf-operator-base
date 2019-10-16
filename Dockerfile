@@ -4,5 +4,6 @@ RUN zypper --non-interactive install \
       ruby \
       system-user-nobody \
       inotify-tools \
+      tini \
       ruby && zypper clean
 RUN gem install bosh-template
