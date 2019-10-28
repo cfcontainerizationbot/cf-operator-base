@@ -6,6 +6,7 @@ RUN zypper -n ref && \
       ruby \
       system-user-nobody \
       inotify-tools \
+      dumb-init \
       tini \
       ruby && \
     zypper clean
